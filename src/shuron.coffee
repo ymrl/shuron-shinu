@@ -3,8 +3,8 @@ LIMITS =
   titleChange1:     new Date(2013, 8, 30, 16, 50),
   midPresentation:  new Date(2013, 9, 19,  9, 30),
   titleChangeLast:  new Date(2013, 11, 13, 16, 50),
-  thesisSubmit:     new Date(2014, 0,  8, 15,  0),
-  lastPresentation: new Date(2014, 0, 19,  9, 30)
+  thesisSubmit:     new Date(2014, 0,  9, 15,  0),
+  lastPresentation: new Date(2014, 0, 29,  9, 30)
 
 showLimit = ->
   now = new Date()
