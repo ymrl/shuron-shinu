@@ -11,14 +11,14 @@ body {
 }
 h1 {
 	margin: 0 auto 160px;
-	padding:60px 0 0 0;
+	padding:0;
 	width:920px;
 	font: bold 60px 'ヒラギノ角ゴ Std W8','Hiragino Kaku Gothic Std',sans-serif;
 	line-height:0.9;
-	-webkit-transform: scale(1,1.4);
-	-moz-transform:    scale(1,1.4);
-	-ms-transform:     scale(1,1.4);
-	-o-transform:      scale(1,1.4);
+	-webkit-transform: scale(1,1.4) translateY(60px);
+	-moz-transform:    scale(1,1.4) translateY(60px);
+	-ms-transform:     scale(1,1.4) translateY(60px);
+	-o-transform:      scale(1,1.4) translateY(60px);
 }
 h1 div:nth-child(2) {
 	text-align: right;
@@ -75,5 +75,11 @@ li .stamp:nth-child(odd) {
 	-moz-transform:    rotate(-18deg);
 	-ms-transform:     rotate(-18deg);
 	-o-transform:      rotate(-18deg);
+}
+.share {
+	text-align: center;
+}
+.share a {
+	color: #39f;
 }
 
